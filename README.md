@@ -1,6 +1,6 @@
 # oak_nest_redis_module
 
-This is a module for `oak_nest`.
+This is a redis module for [`oak_nest`](https://deno.land/x/oak_nest).
 
 ## example
 
