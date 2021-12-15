@@ -7,7 +7,7 @@ This is a redis module for [`oak_nest`](https://deno.land/x/oak_nest).
 ```typescript
 import { Module } from "https://deno.land/x/oak_nest@v0.6.5/mod.ts";
 import { AppController } from "./app.controller.ts";
-import { RedisModule } from "https://deno.land/x/oak_nest_redis_module@v0.0.0/mod.ts";
+import { RedisModule } from "https://deno.land/x/oak_nest_redis_module@v0.0.1/mod.ts";
 
 @Module({
   imports: [
@@ -25,7 +25,7 @@ export class AppModule {}
 Then can be used in AppController:
 
 ```ts
-import { RedisService } from "https://deno.land/x/oak_nest_redis_module@v0.0.0/mod.ts";
+import { RedisService } from "https://deno.land/x/oak_nest_redis_module@v0.0.1/mod.ts";
 import { Controller, Get } from "https://deno.land/x/oak_nest@v0.6.5/mod.ts";
 
 @Controller("")
