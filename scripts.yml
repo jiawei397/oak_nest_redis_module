@@ -1,0 +1,13 @@
+version: 0.0.0
+name: oak_nest_redis_module
+scripts:
+   dev:
+    cmd: deno run example/main.ts
+    desc: run my main.ts file
+    allow:
+      - net
+      - env
+    unstable: true
+    tsconfig: tsconfig.json
+    env:
+      PORT: '1000'
