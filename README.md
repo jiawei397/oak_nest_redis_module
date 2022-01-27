@@ -2,6 +2,9 @@
 
 This is a redis module for [`oak_nest`](https://deno.land/x/oak_nest).
 
+> **The project is no longer maintained and has been relocated
+> [here](https://github.com/jiawei397/deno-oak-nest/tree/master/modules/redis).**
+
 ## example
 
 ```typescript
